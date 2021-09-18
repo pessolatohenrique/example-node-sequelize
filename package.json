@@ -4,7 +4,7 @@
   "description": "Template para Node.js com o framework ORM Sequelize",
   "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
     "debug": "node --inspect ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
