@@ -19,6 +19,6 @@ app.use((error, req, res, next) => {
   return next(error);
 });
 
-app.listen(3000, () => console.log("Server Started"));
+app.listen(process.env.PORT || 3000);
 
 module.exports = app;
